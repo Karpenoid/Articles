@@ -31,7 +31,7 @@ const ArticleCard: FC<ArticleCardProps> = ({ img, date, title, text }) => {
 
   return (
     <Card className={styles.card}>
-      <CardActionArea>
+      <CardActionArea className={styles.main}>
         <CardMedia
           component="img"
           image={img}
